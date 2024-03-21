@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+#logintitle{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin-top: 90px;
+    text-align: center;
+    color: #000ba8;
+}
+.custom-btn{
+    height: 40px;
+    border-radius: 18px;
+    width: 40%;
+    border: none;
+    background-color: var(--oxd-primary-one-color, #ff7c1e);
+} 
+.navbar {
+    display: flex;
+    justify-content: flex-end; 
+    padding: 10px 20px;
+    background-color: var(--oxd-primary-one-color, #ff7c1e);
+}
+#pass {
+    position: relative;
+}
+
+
+.password-toggle-icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+.login-signup-box {
+    float: right;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    margin-right: 20px;
+}
+
+.login-signup-box a {
+    display: inline-block;
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10px 20px;
+    margin-left: 5px;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.login-signup-box a:hover {
+    background-color: #dad6d5;
+}
+
+ #login,#signup {
+    display: none;
+} 
